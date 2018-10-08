@@ -1,10 +1,8 @@
-…or create a new repository on the command line
-echo "# consultant-profile" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/JahnaviYerrapragada/consultant-profile.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/JahnaviYerrapragada/consultant-profile.git
-git push -u origin master
+git init \n
+git add README.md \n
+git commit -m "first commit" \n
+git remote add origin https://github.com/JahnaviYerrapragada/consultant-profile.git \n
+git push -u origin master \n
+…or push an existing repository from the command line \n
+git remote add origin https://github.com/JahnaviYerrapragada/consultant-profile.git \n
+git push -u origin master \n
