@@ -80,5 +80,5 @@ Outputs:
     Value: !GetAtt S3Bucket.WebsiteURL
     Description: URL for website hosted on S3
   ApiGWURL:
-    Value: !Sub https://${ConsultantAPI}.execute-api.${AWS::Region}.amazonaws.com/${Environment}/test
+    Value: !Sub https://${ConsultantAPI}.execute-api.${AWS::Region}.amazonaws.com/${Environment}/profile
     Description: API Gateway endpoint
